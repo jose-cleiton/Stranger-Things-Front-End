@@ -9,7 +9,6 @@ const {
   REACT_APP_UPSIDEDOWN_TIMEOUT,
 } = process.env;
 
-
 const getRealityClass = (hereIsTheUpsideDownWorld) => (
   hereIsTheUpsideDownWorld ? 'upside-down' : 'stranger-things'
 );
@@ -124,7 +123,6 @@ class StrangerThings extends React.Component {
         <div className="content strangerfy">
           <div className="change-reality">
             <button type="button" onClick={ this.changeRealityClick }>
-              
               Mudar de Realidade
             </button>
             <p>Em desenvolvimento</p>
